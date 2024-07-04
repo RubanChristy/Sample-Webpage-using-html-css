@@ -1,0 +1,324 @@
+marquee{
+    padding: 10px;
+    background-color: chocolate;
+    font-family: sans-serif;
+
+}
+.nav1 {
+    display: flex;
+    background-color: navy;
+    padding: 20px;
+    color: aliceblue;
+    justify-content: space-between;
+}
+.nav1 a{
+    color: aliceblue;
+}
+.nav1 a:hover{
+    color: chocolate;
+}
+.nav1 .contact{
+    display:flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    }
+.nav1 .contact h3{
+    margin-left: 40px
+}
+.nav1  .contact2{
+    display: flex;
+    margin-right: 10px;
+    
+    
+}
+.nav1 .contact2 p{
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    font-family: cursive;
+}
+.nav2 .logo{
+    display: flex;
+    padding:20px
+}
+.nav2 .option a:hover{
+    background-color: azure;
+    padding-top: 10px;
+}
+.nav2 .option{
+    display: flex;
+    margin-left: 40px;
+}
+.nav2 .option p{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 48px;
+}
+
+.nav2 .enquiry button{
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: rgb(73, 202, 142);
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+   
+}
+.para{
+    background-image: url("https://i1.pickpik.com/photos/228/41/129/student-difficult-read-think-preview.jpg");
+    font-family: cursive;
+    height: 80%;
+    color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    animation: he1 12s infinite;
+}
+@keyframes he1{
+    20%{
+        background-image: url("https://as2.ftcdn.net/v2/jpg/00/35/30/85/1000_F_35308534_WGRVXlymcjQqoRXzeWEfVCOfBHBq9YdW.jpg");
+        
+    }
+    40%{
+        background-image: url("https://as2.ftcdn.net/v2/jpg/06/28/90/99/1000_F_628909943_Xsk4UqTxSbI4APauaCTXcuERxNOw6WJq.jpg")
+    }
+    60%{
+        background-image: url("https://st4.depositphotos.com/13194036/19601/i/450/depositphotos_196018478-stock-photo-male-student-coffee-doing-homework.jpg")
+    }
+    80%{
+        background-image: url("https://st2.depositphotos.com/3396639/6920/i/450/depositphotos_69202533-stock-photo-mans-hands-using-a-laptop.jpg")
+    }
+    100%{
+        background-image: url("https://img.pikbest.com/wp/202409/student-desk-s-close-up-view-of-notebook-and-laptop-on-a-school-background_9823969.jpg!w700wp")
+    }
+}
+.para .text{
+    margin-left: 80px;
+    
+}
+.para .text h2{
+    padding-top: 80px;
+
+}
+.para button{
+    background-color: rgb(73, 202, 142);
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 80px ;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 20px;
+    color: aliceblue;
+   
+    
+}
+.cont :hover{
+    background-color: aliceblue;
+    color: black;
+}
+.cont .box1{
+    padding: 20px;
+    background-color: rgb(25, 199, 199);
+    border-radius: 10%;
+    margin-left: 20px;
+    height: 200px;
+    
+
+}
+.cont .box1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.cont .box2{
+    padding: 20px;
+    background-color: rgb(27, 200, 200);
+    border-radius: 10%;
+    margin-left: 20px;
+
+}
+.cont .box3{
+    padding: 20px;
+    background-color: rgb(26, 201, 201);
+    border-radius: 10%;
+    margin-left: 20px;
+
+}
+.cont .box4{
+    padding: 20px;
+    background-color: rgb(20, 175, 175);
+    border-radius: 10%;
+    margin-left: 20px;
+
+}
+
+.cont .box1 i{
+    margin-top: -48px;
+    padding:30px;
+    background-color: beige;
+    color: black;
+    border-radius: 50%;
+
+}
+.cont .box2 i{
+    margin-top: -48px;
+    padding:30px;
+    background-color: beige;
+    color: black;
+    border-radius: 50%;
+
+}.cont .box3 i{
+    margin-top: -48px;
+    padding:30px;
+    background-color: beige;
+    color: black;
+    border-radius: 50%;
+
+}.cont .box4 i{
+    margin-top: -48px;
+    padding:30px;
+    background-color: beige;
+    color: black;
+    border-radius: 50%;
+
+}
+.cont .box2:hover{
+    background-color: aliceblue;
+    color: black;
+}.cont .box3:hover{
+    background-color: aliceblue;
+    color: black;
+}.cont .box4:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.cont .box1 h3{
+    padding:20px
+
+}
+.cont .box2 h3{
+    padding:20px
+    
+}
+.cont .box3 h3{
+    padding:20px
+    
+}
+.cont .box4 h3{
+    padding:20px
+    
+}
+.courses1 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: cursive;
+    
+}
+.courses1 .c1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.courses1 .c1 h2{
+    background-color: cadetblue;
+    padding: 10px;
+   
+}
+.courses1 .c1 h3{
+    padding: 10px;
+}
+.courses1 .c1 p{
+    padding: 30px;
+}
+.courses1 .c1 button{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    border: none;
+}
+.courses1 .c1 button a{
+    color: aliceblue;
+} 
+
+.last {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color:rgb(199, 213, 221);
+    height: 400px;
+
+}
+.last h3{
+    font-size: 25px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.last .tech p{
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family:cursive;
+}
+.last .tech{
+    text-align: center;
+    margin-top: 40px;
+}
+.last .service{
+    text-align: center;
+    margin-top: 40px;
+}
+.last .service p{
+    padding-left: 40px;
+    text-align:initial;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family:cursive;
+}
+.last .office{
+    text-align: center;
+    margin-top: 40px;
+}
+.last .office p{
+    padding-left: 40px;
+    text-align:initial;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family:cursive;
+}
+.last .subs{
+    text-align: center;
+    margin-top: 40px;
+}
+.last .subs input{
+    height: 35px;
+    width: 250px;
+    margin-right: 10px;
+    text-align: center;
+}
+.last .subs a{
+    background-color: rgb(248, 251, 248);
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 9px;
+    color: black;
+}
+.last .subs div a{
+    background-color: rgb(249, 251, 249);
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-right: 15px;
+}
